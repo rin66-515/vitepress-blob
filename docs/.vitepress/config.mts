@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/vitepress-blob/',
   title: "My blob project",
   description: "A VitePress Site",
   themeConfig: {
